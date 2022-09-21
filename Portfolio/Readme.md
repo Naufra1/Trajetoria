@@ -1,0 +1,1 @@
+Esse projeto é o meu portfólio em sua fase inicial, ainda tenho muitas coisas para adicionar e modificar ao longo do desse período de 6 meses.

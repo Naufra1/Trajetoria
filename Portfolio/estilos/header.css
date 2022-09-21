@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding: 0px 3%;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+    transition-duration: .2s;
+}
+
+.Logo {
+    margin-left: 100px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu li {
+    margin-right: 35px;
+    list-style: none;
+}
+
+.menu a {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+}
+
+.menu a:hover {
+    transform: scale(1.3);
+}

@@ -1,0 +1,86 @@
+.home4{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    background-color: #a1adb8;
+}
+
+.h1-c{
+    display: block;
+    position: relative;
+    bottom: 15%;
+    text-align: center;
+}
+
+
+input, textarea{
+    display: block;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+input{
+    width: 200px;
+}
+
+label{
+    font-size: 20px;
+}
+
+.nome, .sobrenome{
+    display: inline-block;
+    position: relative;
+    bottom: 20%;
+    left: 30%;
+    margin-left: 7%;
+    margin-right: -6%;
+}
+
+.email{
+    position: relative;
+    bottom: 15%;
+    left: 30%;
+    margin-left: 7%;
+    margin-right: 100%;
+}
+
+.texto{
+    position: relative;
+    bottom: 10%;
+    left: 30%;
+    margin-left: 7%;
+    margin-bottom: 2%;
+    margin-right: 100%;
+}
+
+#texto{
+    width: 26em;
+    padding: 1rem;
+}
+
+.botão{
+    display: block;
+    position: relative;
+    left: 30%;
+    margin-left: 7%;
+    margin-right: 100%;
+    bottom: 10%;
+    padding: 0.2em;
+}
+
+button{
+    padding: 0.2em 0.6em;
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    box-shadow: 2px 2px 2px black;
+}
+
+button:hover{
+    transform: scale(1.1);
+}

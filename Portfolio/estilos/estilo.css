@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 3.5rem;
+    text-decoration: none;
+    font-family: "raleway";
+}
+
+body {
+    background-image: linear-gradient(to bottom, #bccad6, black);
+}
+
+/* Começo da Página Inicial */
+.home {
+    padding: 120px 10%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    align-items: center;
+}
+
+.Texto-Início {
+    line-height: 70px;
+    letter-spacing: 1px;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+/* Começo do Resumo */
+.home2 {
+    padding: 110px 5%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+    background-color: #a1adb8;
+}
+
+.Texto-Resumo {
+    display: flex;
+    flex-direction: column;
+}
+
+.h1-R {
+    display: block;
+    position: relative;
+    bottom: 35px;
+}
+
+.resumoP {
+    display: inline;
+    width: 800px;
+    font-size: 30px;
+}
+
+img {
+    height: 300px;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 2rem black;
+}
+
+/* Começa a seção de hobbies */
+.home3 {
+    background-color: #bccad6;
+    padding: 110px 5%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.texto-hobbies{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: start;
+    bottom: 130px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.h1-H {
+    display: block;
+    position: relative;
+    bottom: 35px;
+    
+}
+
+.hobbiesP {
+    width: 700px;
+    font-size: 30px;
+}
+
+.box {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 50px;
+    box-shadow: 2px 2px 1.5rem #5e666c;
+    background-color: #bccad6;
+    color: black;
+    position: relative;
+    bottom: 8%;
+
+}
+
+.lista-h, .lista-i {
+    font-size: 25px;
+    line-height: 70px;
+    position: relative;
+    left: 10px;
+}

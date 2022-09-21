@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Gustavo Soares">
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link rel="stylesheet" href="estilos/header.css">
+    <link rel="stylesheet" href="estilos/formulario.css">
+    <title>Portfólio</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <p class="Logo">Portfólio</p>
+        <nav>
+            <ul class="menu">
+                <li><a href="#Início" id="menu">Início</a></li>
+                <li><a href="#Resumo" id="menu2">Resumo</a></li>
+                <li><a href="#Hobbies" id="menu3">Hobbies</a></li>
+                <li><a href="#Contato" id="menu4">Contato</a></li>
+                <ul>
+        </nav>
+        <script>
+            var nav = document.getElementById('header');
+            window.addEventListener("scroll", function (event) {
+                if (window.pageYOffset > 100) {
+                    header.style.background = "black"
+                    header.style.color = "#9dcde2"
+                    menu.style.color = "#9dcde2"
+                    menu2.style.color = "#9dcde2"
+                    menu3.style.color = "#9dcde2"
+                    menu4.style.color = "#9dcde2"
+                }
+                else {
+                    header.style.background = "transparent"
+                    header.style.color = "black"
+                    menu.style.color = "black"
+                    menu2.style.color = "black"
+                    menu3.style.color = "black"
+                    menu4.style.color = "black"
+                }
+            });
+        </script>
+    </header>
+    <section class="home" id="Início">
+        <div class="Texto-Início">
+            <h4>Ola meu nome é</h4>
+            <h1>Gustavo Resende Soares</span></h1>
+            <h4>Estudande de Engenharia</h4>
+        </div>
+    </section>
+    <section class="home2" id="Resumo">
+        <div class="Texto-Resumo">
+            <h1 class="h1-R">Resumo</h1>
+            <p class="resumoP">Sou atualmente um estudande de Engenharia, sempre fui muito ligado com a tecnologia por
+                isso sempre tive
+                um interesse com a programação, robôs, hardwares, etc. Então como eu já havia começado a mexer com a parte de hardware, decide que começaria a estudar programação.</p>
+        </div>
+        <div>
+            <img src="imagens/Prog.jpg" alt="Conexões que um computador pode fazer.">
+        </div>
+    </section>
+    <section class="home3" id="Hobbies">
+        <div class="texto-hobbies">
+            <h1 class="h1-H">Hobbies e Interesses</h1>
+            <p class="hobbiesP">Desde criança sempre utilizei muito o computador, por isso, quase todos os meus interesses estão relacionados com ele. Aqui vai alguns dos meus hobbies e interesses separados em duas listas.</p>
+        </div>
+        <div class="box">
+            <h2>Hobbies:</h2>
+            <ul class="lista-h">
+                <li>Jogar jogos multiplayers</li>
+                <li>Assistir séries / Animes</li>
+                <li>Assistir videos aleatórios</li>
+                <li>Ler livros</li>
+            </ul>
+        </div>
+        <div class="box">
+            <h2>Interesses:</h2>
+            <ul class="lista-i">
+                <li>Robotica</li>
+                <li>Programação</li>
+                <li>Hardware de computador</li>
+                <li>Engenharia no geral</li>
+            </ul>
+        </div>
+    </section>
+    <section class="home4" id="Contato">
+
+        <h1 class="h1-c">Formulário de Contato</h1>
+
+        <form method="POST">
+            <div class="nome">
+                <label for="nome">Nome:</label> <br>
+                <input type="text" name="nome_usuario" id="nome" required>
+            </div>
+
+            <div class="sobrenome">
+                <label for="sobrenome">Sobrenome:</label> <br>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+
+            <div class="email">
+                <label for="email">E-mail:</label> <br>
+                <input type="email" name="email_usuario" id="email" required>
+            </div>
+
+            <div class="texto">
+                <label for="text" id="text">Assunto:</label> <br>
+                <textarea name="texto_usuario" rows="6" id="texto"></textarea>
+            </div>
+
+            <div class="botão">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
